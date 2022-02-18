@@ -11,5 +11,3 @@ setInterval(function() {
   
     $('#timer').html('Timer: ' + hours + ':' + minutes + ':' + seconds);
   }, 1000);
-
-  
