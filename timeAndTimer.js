@@ -20,6 +20,6 @@ setInterval(function() {
     var time_m = (m < 10) ? ('0' + m) : m;
     var time_s = (s < 10) ? ('0' + s) : s;
 
-    $('#time').html('Time: ' + time_h + ':' + time_m + ':' + time_s);
+    $('#time').html(time_h + ':' + time_m + ':' + time_s);
     $('#timer').html('Timer: ' + timer_h + ':' + timer_m + ':' + timer_s);
   }, 1000);
